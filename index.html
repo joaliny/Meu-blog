@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SoS RIO Grande do Sul</title>
+    <link rel="icon" type="image/x-icon" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  </head>
+  <body >
+     <header>
+      
+     <div class="nav"> 
+      <a href="#index.html" class="logo">SoS <span>Rio Grande do Sul</span></a>
+        <div class="menu" id="myTopnav">
+          <a href="#home" class="active"></a> 
+           <a href="Quem somos.html">Quem Somos</a>
+          <a href="https://www.defesacivil.rs.gov.br/central-de-doacoes" target="_blank">Contato para ajudar</a>
+          <a href="acessibilidade.html">Acessibilidade</a> 
+
+        
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>  
+      </div>  
+      
+      <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+      </script>
+    
+    <a href="https://api.whatsapp.com/send?phone=5519999999999&text=Texto%20aqui"
+    target="_blank"
+    style="position:fixed;bottom: 40%; right:10px;">
+    <svg enable-background="new 0 0 512 512" width="35" height="40" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><path d="M256.064,0h-0.128l0,0C114.784,0,0,114.816,0,256c0,56,18.048,107.904,48.736,150.048l-31.904,95.104  l98.4-31.456C155.712,496.512,204,512,256.064,512C397.216,512,512,397.152,512,256S397.216,0,256.064,0z" fill="#4CAF50"/><path d="m405.02 361.5c-6.176 17.44-30.688 31.904-50.24 36.128-13.376 2.848-30.848 5.12-89.664-19.264-75.232-31.168-123.68-107.62-127.46-112.58-3.616-4.96-30.4-40.48-30.4-77.216s18.656-54.624 26.176-62.304c6.176-6.304 16.384-9.184 26.176-9.184 3.168 0 6.016 0.16 8.576 0.288 7.52 0.32 11.296 0.768 16.256 12.64 6.176 14.88 21.216 51.616 23.008 55.392 1.824 3.776 3.648 8.896 1.088 13.856-2.4 5.12-4.512 7.392-8.288 11.744s-7.36 7.68-11.136 12.352c-3.456 4.064-7.36 8.416-3.008 15.936 4.352 7.36 19.392 31.904 41.536 51.616 28.576 25.44 51.744 33.568 60.032 37.024 6.176 2.56 13.536 1.952 18.048-2.848 5.728-6.176 12.8-16.416 20-26.496 5.12-7.232 11.584-8.128 18.368-5.568 6.912 2.4 43.488 20.48 51.008 24.224 7.52 3.776 12.48 5.568 14.304 8.736 1.792 3.168 1.792 18.048-4.384 35.52z" fill="#FAFAFA"/></svg>
+   </a>
+
+        <!-- <div class="container">
+          <ul class="menu">
+            <li><a href="Quem somos.html">Quem Somos</a></li>
+            <li><a href="#about">Contatos</a></li>
+          </ul>  
+        </div>  -->
+     </header>
+      
+      <section class="home" id="home">
+         <div class="home-text container">
+           <h2 class="home-title">Seja um Aliado!</h2>
+          <p>“Garantir um lar digno para todos é uma luta que não podemos ignorar.</p> Juntos, podemos transformar essa realidade e fazer a diferença!”</p>
+            <span class="home-subtitle"></span>
+         </div>
+      </section>
+      
+       <!-- Post Filter -->
+      <div class="space-between">
+        <div class="post-filter container">
+          <span class="filter-item active-filter" data-filter='all'>HOME</span>
+          <!-- <span class="filter-item " data-filter='design1'>ULTIMAS NOTICIAS</span> -->
+          <span class="filter-item " data-filter='design'>ULTIMAS NOTICIAS</span>
+          <span class="filter-item " data-filter='tech'>VÍDEOS</span>
+          <!-- <span class="filter-item " data-filter='mobile'>ADICIONAR</span> -->
+
+          <div class="endNav">
+            <form action="https://www.google.com/search"  target="_blank"   method="GET">
+              <input class="button" type="submit" value="Pesquisar">
+              <input type="text" name="q" placeholder="Pesquisar">
+            </form> 
+          </div>
+
+          <div>
+            <input type="checkbox" name="change-theme" id="change-theme">
+            <label for="change-theme">
+              <i class="bi bi-sun"></i>
+              <i class="bi bi-moon"></i>
+            </label>
+          </div>
+       </div>
+      </div>
+        
+       
+
+       <!-- Posts -->
+      <section class="post container">
+       <!-- Post Box 1 -->
+       <div class="post-box design">
+        <img src="img/image.jpg" alt="" class="post-img">
+         <h2 class="category">ACRÍTICA.COM</h2>
+         <a href="post-page.html" class="post-title">Escolas de Manaus se tornam pontos de coletas para doação às vítimas do Rio Grande do Sul </a>
+         <span class="post-date">14 de Maio 2024</span>
+         <p class="post-decription">A Secretaria de Estado de Educação e Desporto Escolar, abriu 22 novos pontos de coleta de doações para as vítimas do Rio Grande do Sul. Além da sede da secretaria, localizada no bairro Japiim, zona sul de Manaus, outras 21 escolas, em todas as zonas da cidade, estarão recebendo doações, a partir desta segunda-feira (13/05). A iniciativa integra a campanha “AM pelo RS”, do governo do estado. 
+          Além de alimentos não perecíveis como arroz, feijão, café, leite e enlatados, a campanha também irá arrecadar água de até dois litros. As doações poderão ser realizadas até o dia 17 de maio, no horário das 8h às 16h, tanto na sede da secretaria, quanto nas unidades de ensino. </p>
+         <a href="https://www.acritica.com/geral/escolas-de-manaus-se-tornam-pontos-de-coletas-para-doac-o-as-vitimas-do-rio-grande-do-sul-1.339587" > Saiba mais...</a>
+      </div>
+
+            <!-- Post Box 10 -->
+          <div class="post-box design">
+            <img src="img/devastacao-apos-enchentes.jpg" alt="" class="post-img">
+             <h2 class="category">UOL</h2>
+             <a href="post-page.html" class="post-title">
+                 O que já se sabe sobre os auxílios às famílias do Rio Grande do Sul.</a>
+             <span class="post-date">20 de abril 2024</span>
+             <p class="post-decription">Os auxílios anunciados para atender os atingidos pelas enchentes no Rio 
+               Grande do Sul ainda caminham lentamente até o bolso das famílias. As primeiras parcelas do benefício 
+               estadual de R$ 2.000, pago a partir de doações populares, só chegou a duas cidades do Vale do Taquari. 
+               Já os pagamentos de R$ 5.100 do governo federal ainda dependem do sistema para a inclusão das listas de 
+               moradores das regiões afetadas.</p>
+               <a href="https://economia.uol.com.br/noticias/redacao/2024/05/21/auxilios-rio-grande-do-sul.htm"> Saiba mais...</a>
+                
+               </div>  
+            </div>
+
+          <!-- Post Box 3 -->
+         <div class="post-box mobile">
+          <img src="img/2.png" alt="" class="post-img">
+           <h2 class="category">Água Sustentável</h2>
+           <a href="post-page.html" class="post-title">Enchentes Devastadoras: O Que Acontece no Rio Grande do Sul </a>
+           <span class="post-date">13 de Maio 2024</span>
+           <p class="post-decription">Não é exagero quando se fala que as enchentes transformaram diversas cidades do Rio Grande Sul em um cenário de guerra, é um acontecimento devastador que mexeu com todo Brasil. Não há quem não se comova com as imagens, os vídeos e as notícias. O episódio superou o recorde de 4,76 metros até então registado em 1941 quando o Lago Guaíba na grande Porto Alegre, e registrou uma elevação de 5,35 metros. Os diques, casas de bombas e comportas construídos em 1970 não foram capazes de segurar a água que invadiu quase toda a cidade! Mas por que isso aconteceu? </p>
+           <a href="https://aguasustentavel.org.br/conteudo/blog/242-enchentes-devastadoras-rs?gad_source=1&gclid=Cj0KCQjwrKu2BhDkARIsAD7GBovEoIBhYoQG2NZmuBn_WV7MM6P7SWR1XDJLXizue0JG_cOZeYhKZggaAqqhEALw_wcB"> Saiba mais...</a>
+        </div>
+              
+      
+            <!-- Post Box 5 -->
+          <div class="post-box design">
+            <img src="img/whatsapp-image-2024-05-07-at-19.42.32.avif" alt="" class="post-img">
+             <h2 class="category">g1 globo</h2>
+             <a href="post-page.html" class="post-title">Manaus monta operação de ajuda humanitária 
+               e deve enviar 70 mil litros de água potável ao RS, diz prefeitura</a>
+             <span class="post-date">20 de abril 2024</span>
+             <p class="post-decription">Manaus iniciou uma operação para enviar ajuda humanitária às famílias de Porto Alegre, 
+               capital do Rio Grande do Sul, que desde a última semana vem sofrendo com alagações. No total, serão enviados quase 
+               70 mil litros de água potável, adquiridos por meio de parceria entre Casa Militar, Defesa Civil municipal e Secretaria 
+               Municipal de Segurança Pública e Defesa Social (Semseg).</p>
+               <a href="https://g1.globo.com/am/amazonas/noticia/2024/05/07/manaus-monta-operacao-de-ajuda-humanitaria-e-deve-enviar-70-mil-litros-de-agua-potavel-ao-rs-diz-prefeitura.ghtml"> Saiba mais...</a>
+               <div class="profile">  
+               </div>  
+            </div>
+   
+
+          <!-- Post Box 7 -->
+          <div class="post-box mobile">
+         <img src="img/Doacoes-1024x683.jpg" alt="" class="post-img">
+          <h2 class="category">Câmara Municipal de Manaus</h2>
+          <a href="post-page.html" class="post-title">CMM recebe doações para 
+            vítimas de enchentes no Rio Grande do Sul até esta terça-feira (14/05)</a>
+          <span class="post-date">20 de abril 2024</span>
+          <p class="post-decription">A Câmara Municipal de Manaus (CMM) segue recebendo 
+            doações para as vítimas das enchentes no Rio Grande do Sul (RS). A ação de 
+            solidariedade está arrecadando itens de primeira necessidade como água, fraldas 
+            descartáveis, itens de cama e banho como cobertores, mantas e toalhas; além de 
+            produtos de higiene pessoal.</p>
+            <p class="post-decription">As doações podem ser entregues na recepção da CMM no período das 8h às 14h, até 
+            amanhã, dia 14 de maio. A Casa Legislativa fica na rua Padre Agostinho Caballero 
+            Martin, 850, bairro Santo Antônio, zona oeste da capital. A ação é uma iniciativa 
+            da presidência da Casa Legislativa, em parceria com a Câmara de Porto Alegre.</p>
+           
+         </div>
+   
+           <!-- Post Box 8 -->
+       <div class="post-box design">
+         <img src="img/4.jpg" alt="" class="post-img">
+          <h2 class="category">gência  Brasil</h2>
+          <a href="post-page.html" class="post-title">
+            Sobe para 161 número de mortes por chuvas no Rio Grande do Sul
+          </a>
+          <span class="post-date">21 de Maio 2024</span>
+          <p class="post-decription">O número de mortes confirmadas no Rio Grande do Sul em consequência do maior evento climático já registrado no estado subiu para 161. Seguem desaparecidas 85 pessoas e 806 ficaram feridas. Os dados são do boletim divulgado pela Defesa Civil do estado nesta terça-feira (21).
+            Ao menos 654,19 mil gaúchos ainda estão fora das residências, sendo 581.633 desalojados - aqueles que tiveram de sair de seus lares e estão acolhidos em casas de familiares, amigos ou conhecidos - e outras 72.561 pessoas estão morando temporariamente em um dos 839 abrigos cadastrados pela Secretaria de Desenvolvimento Social do Rio Grande do Sul.  
+            Mais da metade da população desabrigada é da região metropolitana de Porto Alegre (54,09%).</p>
+            <div class="profile">
+              <a href="https://agenciabrasil.ebc.com.br/geral/noticia/2024-05/sobe-para-161-numero-de-mortes-por-chuvas-no-rio-grande-do-sul"> Saiba mais..</a>
+            </div>  
+         </div>
+   
+                <!-- Post Box video 9 -->
+         <div class="post-box tech">
+          <video src="assets/A chuva intensa gera prejuízo em Santa Maria e Região.mp4"
+          controls  poster="img/Captura de tela 2024-05-24 223534.png"></video>
+          <h2 class="category">Diário de Santa Maria<a href="" class="post-title"> A chuva intensa gera prejuízo em Santa Maria.</a></h2>
+          <span class="post-date">17 de Maio 2024</span>
+          <a href="https://youtu.be/hYqf0HyqpvE?si=s8PAuN7mmFIu3eXV"> Saiba mais...</a>
+        </div>  
+
+        
+           <!-- Post Box  video 2 -->
+           <div class="post-box tech">
+            <video src="assets/Inundações_ o dramático retorno a casas destruídas no Rio Grande do Sul.mp4"
+            controls  poster="img/6.jpg"></video>
+            <h2 class="category">Senado notícias<a href="" class="post-title">Reconstrução do Rio Grande do Sul: saiba o que o Senado está fazendo pelo estado
+           Fonte: Agência Senado</a></h2>
+            <span class="post-date">17 de maio 2024</span>
+            <a href="https://youtu.be/VqNOCkCCWdw?si=rBiedP1DfSXk-qVF"> Saiba mais...</a>
+          </div>     
+            
+
+          <!-- Post Box  video 2 -->
+          <div class="post-box tech">
+            <video src="assets/ENCHENTES NO RS - 30_04_2024 - Veja vídeos de como estão inúmeras cidades do Rio Grande do Sul.mp4"
+            controls  poster="img/depois1.webp"></video>
+            <h2 class="category">Agencia A3 <a href="" class="post-title"> ENCHENTES NO RS .</a></h2>
+            <span class="post-date">20 de abril 2024</span>
+            <a href=" https://youtu.be/wEiSySHwkuQ?si=mVtfybvdTSkt1iWl"> Saiba mais...</a>
+           
+          </div> 
+
+         
+          </section>
+
+           <section>
+          <!-- share-compartilhar -->
+          <div class="share post-container">
+            <span class="share-title">Compartilhar este blog</span>
+          <div class="social">
+            <a href="https://m.facebook.com/story.php/?story_fbid=866100535545071&id=100064353982872" target="_blank"><i class='bx bxl-facebook'></i></a>
+            <a href="https://twitter.com/governo_rs"target="_blank"><i class='bx bxl-twitter'></i></a>
+            <a href="https://www.instagram.com/sosrs_ajuda/" target="_blank"><i class='bx bxl-instagram'></i></a>
+            <a href="https://pt.linkedin.com/pulse/edi%C3%A7%C3%A3o-20-sos-rs-fast-company-brasil-xyfwf?trk=public_post" target="_blank"><i class='bx bxl-linkedin'></i></a>
+          </div>
+
+          <!-- Footer -->
+          <div class="footer container"></div>
+          <p>&#169; Todos os Direitos Reservados</p>
+        </section>
+
+     <!-- JQuery Link -->
+     <script
+     src="https://code.jquery.com/jquery-3.7.1.js"
+     integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+      crossorigin="anonymous"></script>
+     <!-- link JS -->
+    <script src="main.js" defer></script>
+  </body>
+  </header>
+</html>
